@@ -130,12 +130,15 @@ h1 > span {
 	font-size: 1.3rem;
 	line-height: 26px;
 	
-}*/
-
+*/
+/******SLIDER SERVICIOS*******/
 .contenedor {
-	max-width: 1200px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,07)),url(img/COMPUTADORA.png);
+	background-size: cover;
+	background-position: center;
+	/* max-width: 1200px;
 	width: 90%;
-	margin: auto;
+	margin: auto;*/
 }
 
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
@@ -143,6 +146,7 @@ h1 > span {
 .contenido-principal {
 	margin-bottom: 50px;
 	display: flex;
+	align-content: center;
 	align-items: center;
 }
 
@@ -158,14 +162,17 @@ h1 > span {
 }
 
 .contenido-principal__titulo {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 28px;
 }
 
 .contenido-principal__resumen {
+	color:white;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 30px;
-	color: #CFCFCF;
+
 }
 
 /* --- --- CAROUSEL --- --- */
@@ -227,7 +234,7 @@ h1 > span {
 	opacity: 1;
 }
 
-
+/*****************TAMAÑO CELULAR*******************/
 
 @media (min-width:780px){
 	.banner {
