@@ -132,7 +132,7 @@ h1 > span {
 	
 */
 /******SLIDER SERVICIOS*******/
-.contenedor {
+.contenedor_compus {
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,07)),url(img/COMPUTADORA.png);
 	background-size: cover;
 	background-position: center;
@@ -143,32 +143,32 @@ h1 > span {
 
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
 
-.contenido-principal {
+.compus-principal {
 	margin-bottom: 50px;
 	display: flex;
 	align-content: center;
 	align-items: center;
 }
 
-.contenido-principal__imagen {
+.compus-principal__imagen {
 	vertical-align: top;
 	margin-right: 20px;
 	width: 50%;
 	max-width: 550px;
 }
 
-.contenido-principal__contenedor {
+.compus-principal__contenedor {
 	width: 50%;
 }
 
-.contenido-principal__titulo {
+.compus-principal__titulo {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 28px;
 }
 
-.contenido-principal__resumen {
+.compus-principal__resumen {
 	color:white;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 30px;
@@ -176,7 +176,7 @@ h1 > span {
 }
 
 /* --- --- CAROUSEL --- --- */
-.carousel__contenedor {
+.carousel__contenedor_compus {
 	position: relative;
 }
 
@@ -198,7 +198,7 @@ h1 > span {
 
 .carousel__anterior:hover,
 .carousel__siguiente:hover {
-	opacity: 100%;
+	opacity: 50%;/*100%*/
 }
 
 .carousel__anterior {
@@ -236,7 +236,7 @@ h1 > span {
 
 /*****************TAMAÑO CELULAR*******************/
 
-@media (min-width:780px){
+@media (min-width:575px){ /*780*/
 	.banner {
 		display: flex;
 		justify-content: initial;
